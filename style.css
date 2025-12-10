@@ -49,7 +49,7 @@ header {
 }
 
 .logo img {
-    height: 48px;
+    height: 80px;
     border-radius: 8px;
     object-fit: cover;
 }
@@ -314,7 +314,7 @@ main {
     width: 100%;
     border-radius: 20px;
     object-fit: cover;
-    max-height: 380px;
+    max-height: 800px;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
 }
 
@@ -364,8 +364,8 @@ main {
 }
 
 .service-image-wrapper {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 24px;
     overflow: hidden;
     margin-bottom: 18px;
@@ -383,11 +383,26 @@ main {
     font-size: 1.2rem;
     margin-bottom: 8px;
 }
-
 .service-card p {
     font-size: 0.95rem;
     color: var(--text-muted);
 }
+#servicep{
+    margin-left: 0;
+}
+#bouttonreserver{
+    margin-top: 5%;
+    margin-left: 37%;
+    background: rgba(249, 241, 230, 0.8);
+}
+
+/* ---------------------- */
+/* Atelier                */
+/* ---------------------- */
+
+
+
+
 
 /* ---------------------- */
 /* CONTACT                */
@@ -403,22 +418,27 @@ main {
     border: 1px dashed var(--accent);
     background: rgba(249, 241, 230, 0.8);
     margin-top: 10px;
+    
 }
 
 .contact-box p {
     font-size: 0.96rem;
+    
 }
 
 .contact-box a {
     color: var(--text-main);
     text-decoration: none;
     font-weight: 500;
+
 }
 
 .contact-box a:hover {
     text-decoration: underline;
 }
-
+.section-intro{
+    margin-left: 20%;
+}
 /* ---------------------- */
 /* RESEAUX SOCIAUX        */
 /* ---------------------- */
