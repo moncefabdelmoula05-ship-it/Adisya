@@ -322,7 +322,7 @@ main {
 /* SERVICES               */
 /* ---------------------- */
 .services-grid {
-    display: grid;
+    display: flexbox;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 28px;
 }
@@ -337,6 +337,7 @@ main {
     transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast);
     position: relative;
     overflow: hidden;
+    margin-top: 2%;
 }
 
 .service-card::after {
@@ -386,20 +387,33 @@ main {
 .service-card p {
     font-size: 0.95rem;
     color: var(--text-muted);
+    max-height: 80px; 
+    overflow: hidden;
+    transition: max-height 0.4s ease;
 }
 #servicep{
     margin-left: 0;
 }
-#bouttonreserver{
-    margin-top: 5%;
-    margin-left: 37%;
-    background: rgba(249, 241, 230, 0.8);
+.bouttonreserver{
+    margin-top: 10%;
+    background: rgba(249, 241, 230, 0.314);
+    font-size: 14px;
+    
+}
+.service-card p.expanded {
+    max-height: 600px;
+}
+.toggle-btn {
+    cursor: pointer;
+    font-size: 14px;
+    color: #000000;
+    display: inline-block;
+    margin-top: 8px;
 }
 
 /* ---------------------- */
 /* Atelier                */
 /* ---------------------- */
-
 
 
 
@@ -437,7 +451,7 @@ main {
     text-decoration: underline;
 }
 .section-intro{
-    margin-left: 20%;
+    margin: auto;
 }
 /* ---------------------- */
 /* RESEAUX SOCIAUX        */
