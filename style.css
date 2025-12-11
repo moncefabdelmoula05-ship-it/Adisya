@@ -213,7 +213,7 @@ header {
 }
 
 .btn-outline:hover {
-    background: var(--accent-soft);
+    background: #D8B68A;
     color: var(--text-main);
 }
 
@@ -226,10 +226,11 @@ main {
 
 .section {
     padding: 80px 7%;
+    background: #edc5aef0;
 }
 
 .section-alt {
-    background: linear-gradient(180deg, var(--bg-alt), var(--bg));
+    background:#edc5aef0;
 }
 
 .section + .section {
@@ -239,7 +240,7 @@ main {
 .section-inner {
     max-width: 1080px;
     margin: 0 auto;
-    background: var(--card-bg);
+    background: #fff;
     border-radius: var(--radius-lg);
     padding: 40px 36px;
     box-shadow: var(--shadow-soft);
